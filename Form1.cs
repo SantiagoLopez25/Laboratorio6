@@ -47,7 +47,7 @@ namespace Laboratorio6
                 vehiculo.Color = textBoxColor.Text;
                 vehiculo.PrecioKm = Convert.ToDouble(textBoxKms.Text);
                 vehiculos.Add(vehiculo);
-                Guardar("vehiculos.txt");
+                Guardar(@"..\..\vehiculos.txt");
             }
             else
             {
@@ -79,9 +79,9 @@ namespace Laboratorio6
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            abrirVehiculo("vehiculos.txt");
-            abrirCliente("clientes.txt");
-            abrirAlquiler("alquieres.txt");
+            abrirVehiculo(@"..\..\vehiculos.txt");
+            abrirCliente(@"..\..\clientes.txt");
+            abrirAlquiler(@"..\..\alquieres.txt");
             mostrarVehículos();
             mostrarClientes();
             unir();
