@@ -148,6 +148,7 @@ namespace Laboratorio6
                 alquiler.FechaDev = reader.ReadLine();
                 alquiler.Kms = Convert.ToDouble(reader.ReadLine());
                 alquileres.Add(alquiler);
+                //jsj
             }
 
             reader.Close();
