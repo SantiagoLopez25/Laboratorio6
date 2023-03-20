@@ -45,6 +45,7 @@ namespace Laboratorio6
             this.dataGridViewAlquiler = new System.Windows.Forms.DataGridView();
             this.buttonCalcular = new System.Windows.Forms.Button();
             this.labelMasKm = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewVehiculos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAlquiler)).BeginInit();
@@ -146,7 +147,7 @@ namespace Laboratorio6
             // 
             this.dataGridViewVehiculos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewVehiculos.Location = new System.Drawing.Point(403, 66);
-            this.dataGridViewVehiculos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewVehiculos.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewVehiculos.Name = "dataGridViewVehiculos";
             this.dataGridViewVehiculos.RowHeadersWidth = 62;
             this.dataGridViewVehiculos.RowTemplate.Height = 28;
@@ -157,7 +158,7 @@ namespace Laboratorio6
             // 
             this.dataGridViewClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewClientes.Location = new System.Drawing.Point(841, 66);
-            this.dataGridViewClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewClientes.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewClientes.Name = "dataGridViewClientes";
             this.dataGridViewClientes.RowHeadersWidth = 62;
             this.dataGridViewClientes.RowTemplate.Height = 28;
@@ -168,7 +169,7 @@ namespace Laboratorio6
             // 
             this.dataGridViewAlquiler.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewAlquiler.Location = new System.Drawing.Point(36, 347);
-            this.dataGridViewAlquiler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewAlquiler.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewAlquiler.Name = "dataGridViewAlquiler";
             this.dataGridViewAlquiler.RowHeadersWidth = 62;
             this.dataGridViewAlquiler.RowTemplate.Height = 28;
@@ -194,11 +195,21 @@ namespace Laboratorio6
             this.labelMasKm.TabIndex = 15;
             this.labelMasKm.Text = "label5";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(363, 311);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "label5";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1244, 765);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.labelMasKm);
             this.Controls.Add(this.buttonCalcular);
             this.Controls.Add(this.dataGridViewAlquiler);
@@ -245,6 +256,7 @@ namespace Laboratorio6
         private System.Windows.Forms.DataGridView dataGridViewAlquiler;
         private System.Windows.Forms.Button buttonCalcular;
         private System.Windows.Forms.Label labelMasKm;
+        private System.Windows.Forms.Label label5;
     }
 }
 
