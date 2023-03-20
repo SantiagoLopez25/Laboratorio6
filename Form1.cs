@@ -137,7 +137,7 @@ namespace Laboratorio6
             //if(File.Exists())
             FileStream stream = new FileStream(fileName, FileMode.OpenOrCreate, FileAccess.Read);
             StreamReader reader = new StreamReader(stream);
-
+            //gegsgsgsg
 
             while (reader.Peek() > -1)
             {
